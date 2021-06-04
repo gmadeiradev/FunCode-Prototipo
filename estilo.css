@@ -32,6 +32,9 @@ textarea {
 h3 {
     text-align: center;
 }
+.tabela_ranking {
+margin: 0 auto;
+}
 
 #cabecalho {
     /* background-color: #F5DA81; */
