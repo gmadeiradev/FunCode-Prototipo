@@ -13,14 +13,6 @@ body {
 }
 
 /* header */
-header nav form .botao-procurar {
-    border: 1.5px solid #FEDB45;
-}
-
-header nav form .botao-procurar:hover {
-    background-color: #FEDB45;
-}
-
 main section .inov-div-edu {
     background-color: #A9E2F3;
 }

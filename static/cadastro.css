@@ -1,0 +1,35 @@
+/* estilo geral */
+html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul, li, a, main {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* body */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* formulário de cadastro */
+main section .alinhamento-form {
+    margin: 120px auto 120px;
+    width: 768px;
+}
+
+main section .padding-cad-form {
+    padding: 150px;
+}
+
+main section form .botao-reg-cad {
+    border: 1.5px solid #FEDB45;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+main section form .botao-reg-cad:hover {
+    background-color:  #FEDB45;
+    color: gray;
+}
