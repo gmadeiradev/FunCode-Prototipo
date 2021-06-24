@@ -10,6 +10,8 @@
     <link rel="stylesheet" type="text/css" href="./static/index.css">
     <!-- CSS navbar -->
     <link rel="stylesheet" href="./static/navbar.css">
+    <!-- CSS botão voltar para o topo -->
+    <link rel="stylesheet" href="./static/botao-voltar-topo.css">
     <!-- CSS footer -->
     <link rel="stylesheet" href="./static/footer.css">
     <!-- Bootstrap CSS -->
@@ -114,7 +116,7 @@
                     </div>
                     
                     <div class="col-sm mt-4 d-block">
-                        <h2>O que é o Projeto Fun Code?</h2>
+                        <h2>Conheça o Fun Code</h2>
                         <p></p>
                     </div>
                 </div>
@@ -125,13 +127,14 @@
             <!-- container -->
             <div class="container">
                 <div class="row mx-auto my-3 py-3 rounded inov-div-edu">
+                    <h2 class="text-center">Missão do Projeto Fun Code</h2>
                     <div class="col-sm d-block">
                         <div class="mx-5">
-                            <h4 class="text-center pt-3">Inovação</h4>
                             <figure>
                                 <img class="alinhar-img" src="img/inovacao.jpeg" alt="" width="220px">
                             </figure>
                         </div>
+                        <h4 class="text-center pb-3">Inovação</h4>
                         <p>
                             A plataforma oferece uma nova forma de ensino de lógica e programação, através de um modelo
                             lúdico,
@@ -141,11 +144,12 @@
 
                     <div class="col-sm d-block">
                         <div class="mx-5">
-                            <h4 class="text-center pt-3">Diversão</h4>
+                            
                             <figure>
                                 <img class="alinhar-img" src="img/diversao.jpeg" alt="" width="220px">
                             </figure>
                         </div>
+                        <h4 class="text-center pb-3">Diversão</h4>
                         <p>
                             O Fun Code, por meio dos seus personagens, jogos e atividades busca desenvolver na criança o ato
                             de
@@ -156,24 +160,18 @@
     
                     <div class="col-sm d-block">
                         <div class="mx-5">
-                            <h4 class="text-center pt-3">Educação</h4>
+                            
                             <figure>
-                                <img class="alinhar-img" src="img/educacao.jpeg" alt="" width="220px">
+                                <img class="alinhar-img" src="img/educacao.jpeg" style="border: 1px solid red;" alt="" width="220px">
                             </figure>
                         </div>
+                        <h4 class="text-center pb-3">Educação</h4>
                         <p>
                             Em decorrência da defasagem no ensino de lógica de programação para crianças, o Fun Code, tem
                             como
                             missão tornar esse conteúdo mais difundido e e uma realidade para a infância brasileira.
                         </p>
                     </div>
-                </div>
-
-                <!-- botão voltar para o topo -->
-                <div class="fixo-btn-div float-right">
-                    <a class="fixo-btn px-4 py-3 rounded-circle" href="#">
-                    <i class="fa fa-arrow-up " aria-hidden="true"></i>
-                    </a>
                 </div>
             </div>
             <!-- fim container -->
@@ -280,6 +278,13 @@
         <!-- fim container -->
     </footer>
 
+    <!-- botão voltar para o topo -->
+    <div class="smoothscroll-top">
+        <span class="scroll-top-inner">
+            <i class="fa fa-2x fa-arrow-circle-up"></i>
+        </span>
+    </div>
+
     <!-- jQuery, Popper.js e Bootstrap JS, respectivamente -->
     <script src="static/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="static/bootstrap/js/"></script>
@@ -289,6 +294,8 @@
         crossorigin="anonymous"></script>
     <script src="static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="static/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <!-- botão voltar para o topo -->
+    <script src="./static/botao-voltar-topo.js"></script>
 </body>
 
 </html>
