@@ -13,7 +13,7 @@ body {
 }
 
 /* formulário de cadastro */
-main section .alinhamento-form {
+main section .alinhamento-form-cad {
     margin: 120px auto 120px;
     width: 768px;
 }
@@ -30,6 +30,32 @@ main section form .botao-reg-cad {
 }
 
 main section form .botao-reg-cad:hover {
+    background-color:  #FEDB45;
+    color: gray;
+}
+
+/* formulário de login */
+main section .alinhamento-form-login {
+    margin: 220px auto 220px;
+    width: 768px;
+}
+
+/* escolha de conta */
+main section .opcao-conta-card {
+    margin: 300px auto;
+    background-color: white;
+    width: 1280px;
+    height: 382px;
+}
+
+main section .botao-esc-conta {
+    border: 1.5px solid #FEDB45;
+    margin: 0 200px;
+    display: flex;
+    justify-content: center;
+}
+
+main section .botao-esc-conta:hover {
     background-color:  #FEDB45;
     color: gray;
 }

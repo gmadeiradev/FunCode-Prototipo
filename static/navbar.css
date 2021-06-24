@@ -18,4 +18,5 @@ header nav form .botao-procurar {
 
 header nav form .botao-procurar:hover {
     background-color: #FEDB45;
+    color: gray;
 }

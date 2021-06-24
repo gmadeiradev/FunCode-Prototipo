@@ -2,7 +2,7 @@
 <html lang="pt_br">
 
 <head>
-    <title>Fun Code - Cadastro</title>
+    <title>Fun Code - Escolha Sua Conta</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS externo -->
@@ -65,46 +65,32 @@
     <main>
         <section>
             <!-- container -->
-            <div class="alinhamento-form-cad">
-                <div class="padding-cad-form mt-5 shadow mb-5 bg-white">
-                    <form>
-                        <div class="form-group">
-                            <div class="form-group">
-                                <label for="exampleInputName">Nome Completo</label>
-                                <input type="password" class="form-control input" id="exampleInputPassword1"
-                                    placeholder="Nome Completo">
-                            </div>
-
-                            <label for="exampleInputEmail1">Endereço de e-mail</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp" placeholder="Seu e-mail">
-                            <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu e-mail
-                                com ninguém.</small>
+            <div class="container shadow opcao-conta-card">
+                <div class="card-deck pt-3">
+                    <div class="card">
+                        <img class="card-img-top" src="./img/" width="382px" height="150px" alt="Imagem de capa do card">
+                        <div class="card-body  text-center">
+                            <h5 class="card-title">Preemium</h5>
+                            <p class="card-text">
+                                Conta com material em texto, vídeos das aulas e acesso a atividades correspondentes, “games” e ranking das atividades. 
+                            </p>
                         </div>
+                    </div>
 
-                        <div class="form-group">
-                            <label for="exampleInputPassword1">Senha</label>
-                            <input type="password" class="form-control input" id="exampleInputPassword1"
-                                placeholder="Senha">
+                    <div class="card">
+                        <img class="card-img-top" src="./img/" width="382px" height="150px" alt="Imagem de capa do card">
+                        <div class="card-body  text-center">
+                            <h5 class="card-title">Free</h5>
+                            <p class="card-text">
+                                Conta com material em texto, vídeos das aulas e atividades correspondentes.
+                            </p>
                         </div>
+                    </div>
+                </div>
 
-                        <div class="form-group">
-                            <label for="exampleInputPassword2">Confirmar Senha</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1"
-                                placeholder="Confirmar Senha">
-                        </div>
-
-                        <div class="form-group form-check">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="form-check-label" for="exampleCheck1">Concordar com os termos de
-                                uso.</label>
-                        </div>
-                        <button type="submit" class="container btn botao-reg-cad">Cadastrar-se</button>
-
-                        <div class="mt-3">
-                            <a href="./entrar.html"><span>Já possuo cadastro.</span></a>
-                        </div>
-                    </form>
+                <div class="row">
+                    <button type="submit" class="col-sm mt-5 container btn botao-esc-conta">Escolher Opção Preemium</button>
+                    <button type="submit" class="col-sm mt-5 container btn botao-esc-conta">Escolher Opção Free</button>
                 </div>
             </div>
             <!-- fim container -->
