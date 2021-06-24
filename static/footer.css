@@ -13,8 +13,9 @@ body {
 }
 
 footer {
-    background-color: #ffffff;
+    background-color: #f7f5f4;
     font-size: 0.95rem;
+    box-shadow: 0 0 2em #ddd;
 }
 
 footer a {

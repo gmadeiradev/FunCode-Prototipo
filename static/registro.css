@@ -12,6 +12,10 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+main section a {
+    text-decoration: none;
+}
+
 /* formulário de cadastro */
 main section .alinhamento-form-cad {
     margin: 120px auto 120px;
@@ -23,20 +27,27 @@ main section .padding-cad-form {
 }
 
 main section form .botao-reg-cad {
-    border: 1.5px solid #FEDB45;
+    background-color:  #FEDB45;
+    color: gray;
     width: 150px;
     display: flex;
     justify-content: center;
 }
 
 main section form .botao-reg-cad:hover {
-    background-color:  #FEDB45;
     color: gray;
+    box-shadow: 0 0 2em #ddd;
 }
 
 /* formulário de login */
 main section .alinhamento-form-login {
     margin: 220px auto 220px;
+    width: 768px;
+}
+
+/* recuperação de senha */
+main section .alinhamento-form-rec-senha {
+    margin: 270px auto 270px;
     width: 768px;
 }
 

@@ -12,11 +12,17 @@ body {
 }
 
 /* header */
+header nav {
+    background-color: #f7f5f4;
+    box-shadow: 0 0 2em #ddd;
+}
+
 header nav form .botao-procurar {
-    border: 1.5px solid #FEDB45;
+    background-color: #FEDB45;
+    color: gray;
 }
 
 header nav form .botao-procurar:hover {
-    background-color: #FEDB45;
     color: gray;
+    box-shadow: 0 0 2em #ddd;
 }
