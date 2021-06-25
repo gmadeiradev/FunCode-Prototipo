@@ -13,8 +13,7 @@ body {
 }
 
 main {
-    background-image: url(../img/cadastro-bg.png);
-    border: 1px solid red;
+    background-image: url(../img/bg-cadastro-estrelas.png);
 }
 
 main section a {
@@ -44,10 +43,22 @@ main section form .botao-reg-cad:hover {
     box-shadow: 0 0 2em #ddd;
 }
 
+main section .img-bg-cadastro {
+    position: absolute;
+    bottom: 100px;
+    left: 150px;
+}
+
 /* formulário de login */
 main section .alinhamento-form-login {
     margin: 220px auto 220px;
     width: 768px;
+}
+
+main section .img-bg-login {
+    position: absolute;
+    bottom: 500px;
+    left: 1500px;
 }
 
 /* recuperação de senha */

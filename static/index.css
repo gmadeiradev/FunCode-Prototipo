@@ -17,22 +17,17 @@ main section .alinhar-metodologia {
     justify-content: center;
 }
 
-
-main section ul li {
-    list-style-type: circle;
-}
-
-main section .inov-div-edu {
-    
-}
-
 main section figure .alinhar-img {
-    margin-left: 15px;
+    margin-left: 40px;
 }
 
 main section figure .definicao-funcode-img {
     width: 350px;
     box-shadow: 0 0 1.5em #FEDB45;
+}
+
+main .destaque-met {
+    box-shadow: 0 0 2em #ddd;
 }
 
 /* linha */
@@ -44,7 +39,6 @@ main section figure .definicao-funcode-img {
 
 /* media query - responsividade */
 @media only screen and (max-width: 768px) {
-    
     main section figure .alinhar-img {
         margin-left: 50px;
     }
