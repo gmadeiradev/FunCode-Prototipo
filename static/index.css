@@ -7,14 +7,23 @@ html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul, li
     text-decoration: none;
 }
 
-/* body */
-body {
-    font-family: 'Open Sans', sans-serif;
+h1, h3 {
+    font-family: 'Amatic SC', cursive;
 }
 
-/* header */
+/* body */
+main section .alinhar-metodologia {
+    display: flex;
+    justify-content: center;
+}
+
+
+main section ul li {
+    list-style-type: circle;
+}
+
 main section .inov-div-edu {
-    background-color: #A9E2F3;
+    
 }
 
 main section figure .alinhar-img {

@@ -12,6 +12,11 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+main {
+    background-image: url(../img/cadastro-bg.png);
+    border: 1px solid red;
+}
+
 main section a {
     text-decoration: none;
 }
