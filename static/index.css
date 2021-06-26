@@ -28,6 +28,12 @@ main section figure .definicao-funcode-img {
 
 main .destaque-met {
     box-shadow: 0 0 2em #ddd;
+    background-color: #A9E2F3;
+}
+
+main .missao {
+    box-shadow: 0 0 10px #ddd;
+    border-radius: 10px;
 }
 
 /* linha */
