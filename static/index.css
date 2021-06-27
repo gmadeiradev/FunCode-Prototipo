@@ -17,6 +17,15 @@ main section .alinhar-metodologia {
     justify-content: center;
 }
 
+main section .metodologia {
+    display: flex;
+    justify-content: center;
+}
+
+main section .tamanho-bg-metodologia {
+    width: 1000px;
+}
+
 main section figure .alinhar-img {
     margin-left: 40px;
 }
@@ -47,5 +56,9 @@ main .missao {
 @media only screen and (max-width: 768px) {
     main section figure .alinhar-img {
         margin-left: 50px;
+    }
+
+    main section .tamanho-bg-metodologia {
+        width: 660px;
     }
 }
