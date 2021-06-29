@@ -49,6 +49,13 @@ main section .img-bg-cadastro {
     left: 150px;
 }
 
+/* opção de conta */ 
+main section .img-opcao-conta {
+    border: none;
+    top: 10px;
+    left: 240px;
+}
+
 /* formulário de login */
 main section .alinhamento-form-login {
     margin: 220px auto 220px;
