@@ -16,7 +16,7 @@ body {
 }
 
 main section .alinhamento-atividades {
-    margin: 120px auto 120px;
+    margin: 120px auto 170px;
     padding: 10px;
     width: 1200px;
 }
@@ -28,3 +28,23 @@ main section .sobre-atividades {
 main section figure .svg-atividades {
     width: 500px;
 }
+
+/* atividade */
+main section .tamanho-img-atividades {
+    width: 100px;
+    margin-left: 150px;
+    box-shadow: 0 0 1em #ddd;
+}
+
+main section .btn-avancar {
+    background-color: #FEDB45;
+    color: gray;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+main section .btn-avancar:hover {
+    color: gray;
+    box-shadow: 0 0 2em #ddd;
+} 
