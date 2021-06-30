@@ -1,89 +1,219 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt_br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <title>Fun Code - Ranking</title>
-
-    <link rel="stylesheet" type="text/css" href="estilo.css">
+  <title>Fun Code - Ranking</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS externo -->
+  <!-- CSS index -->
+  <link rel="stylesheet" type="text/css" href="./static/ranking.css">
+  <!-- CSS navbar -->
+  <link rel="stylesheet" href="./static/navbar.css">
+  <!-- CSS footer -->
+  <link rel="stylesheet" href="./static/footer.css">
+  <!-- Bootstrap CSS -->
+  <link href="static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="static/bootstrap/css/bootstrap.min.css">
+  <!-- Fonte Amatic SC -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 </head>
 
-<body>
-    <div class="row">
-    </div></div>
-    <div id="cabecalho">
+<body style="background-color: #A9E2F3;">
+  <!-- cabeçalho -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg fixed-top" id="home">
+      <a class="navbar-brand fonte-marca" href="index.html">Fun Code</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        <div id="logo">
-            <a href="index.html" type="icon">
-                <h1>Fun Code</h1>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Aulas e Atividades
             </a>
-        </div>
-
-        <div id="menu">
-            <a href="entrar.html">Entrar</a>
-            <a href="cadastro.html">Cadastrar-se</a>
-            <a href="sugestaoUsuario.html">Faça Uma Sugestão</a>
-        </div>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Aulas</a>
+              <a class="dropdown-item" href="#">Atividades</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Games</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="entrar.html">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="cadastro.html">Cadastrar-se</a>
+          </li>
+        </ul>
       </div>
-    
-    <p class="text-center">Ranking</p>
-    <img src="img/pod.jpg" class="img-fluid" alt=""width="350" height="200" style="display: block; margin-left: auto; margin-right: auto;">
-    
-</body>
-    <table class="border border-dark col-sm mt-3 container">
-        <thead>
-          <tr>
-            <th scope="col"></th>
-            <th></th>
-            <th scope="col">Nickname</th>
-            <th scope="col">Pontuação</th>
-            
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row"></th>
-            <td><img class="rounded-circle" src="img/trof.jpg" width="50" height="50" alt=""></td>
-            <td>01 Jose</td>
-            <td>150 points</td>
+    </nav>
+  </header>
+  <!-- fim cabeçalho -->
+
+  <main>
+    <section>
+      <div class="container-ranking  py-4 shadow bg-light">
+        <h1 class="text-center">Ranking Fun</h1>
+        <table class="table table-hover">
+          <thead>
+            <tr>
+              <th scope="col"></th>
+              <th scope="col">Colocação</th>
+              <th scope="col">Nome</th>
+              <th scope="col">Pontuação</th>
+            </tr>
+          </thead>
 
           <tbody>
-          
-          <tr>
-            <th scope="row"></th>
-            <td><img class="rounded-circle" src="img/trof.jpg" width="50" height="50" alt=""></td>
-            <td> 02 João</td>
-            <td>100 points</td>
-            
-          </tr>
-          <tr>
-            <th scope="row"></th>
-            <td><img class="rounded-circle" src="img/trof.jpg" width="50" height="50" alt=""></td>
-            <td> 03 Pedro</td>
-            <td>90 points</td>
-            
-          </tr>
-        </tbody>
-          
-      </tbody>
-    </table>
-    
-    <!-- Fim do Conteúdo -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
-        integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
-        crossorigin="anonymous"></script>
+            <tr>
+              <th scope="row">1</th>
+              <td><img class="tamanho-img-colocacao" src="./img/gold-medal.png" alt=""></td>
+              <td>Joãozinho</td>
+              <td>150 pontos</td>
+            </tr>
+
+            <tr>
+              <th scope="row">2</th>
+              <td><img class="tamanho-img-colocacao" src="./img/silver-medal.png" alt=""></td>
+              <td>José</td>
+              <td>100 pontos</td>
+            </tr>
+
+            <tr>
+              <th scope="row">3</th>
+              <td><img class="tamanho-img-colocacao" src="./img/bronze-medal.png" alt=""></td>
+              <td>Pedro</td>
+              <td>90 pontos</td>
+            </tr>
+          </tbody>
+        </table>  
+
+        <button class="btn container btn-rank-continuar">Continuar</button>
+      </div>
+    </section>
+
+    <div>
+      <figure>
+        <img class="img-bg-ranking" src="./img/ilustracao-rank-menina.png" width="80px" alt="">
+      </figure>
+    </div>
+  </main>
   
-        
-        <div class="mx-auto" style="width: 200px;">
-          Ranking Fun
+  <!-- <p class="text-center">Ranking</p>
+  <img src="img/pod.jpg" class="img-fluid" alt="" width="350" height="200"
+    style="display: block; margin-left: auto; margin-right: auto;">
+
+
+  <table class="border border-dark col-sm mt-3 container">
+    <thead>
+      <tr>
+        <th scope="col"></th>
+        <th></th>
+        <th scope="col">Nickname</th>
+        <th scope="col">Pontuação</th>
+
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row"></th>
+        <td><img class="rounded-circle" src="img/trof.jpg" width="50" height="50" alt=""></td>
+        <td>01 Jose</td>
+        <td>150 points</td>
+
+    <tbody>
+
+      <tr>
+        <th scope="row"></th>
+        <td><img class="rounded-circle" src="img/trof.jpg" width="50" height="50" alt=""></td>
+        <td> 02 João</td>
+        <td>100 points</td>
+
+      </tr>
+      <tr>
+        <th scope="row"></th>
+        <td><img class="rounded-circle" src="img/trof.jpg" width="50" height="50" alt=""></td>
+        <td> 03 Pedro</td>
+        <td>90 points</td>
+
+      </tr>
+    </tbody>
+
+    </tbody>
+  </table> -->
+
+  <!-- footer -->
+  <footer>
+    <!-- container -->
+    <div class="linha-amarela"></div>
+    <div class="container my-0 py-3" id="footer">
+      <div class="row">
+        <div class="col-md-4 col-xl-5">
+          <div class="pr-xl-4">
+            <a class="brand" href="index.html">
+              <img class="brand-logo-light ml-5" src="./img/logo-funcode.png" width="140px" alt="" height="140px"
+                srcset="images/agency/logo-retina-inverse-280x74.png 2x">
+            </a>
+            <p>Complementar e Integrar a Educação Infantil.</p>
+          </div>
         </div>
-        
-  </body>     
-        
+
+        <div class="col-md-4">
+          <h5>Contato</h5>
+          <dl class="contact-list">
+            <dt>E-mail:</dt>
+            <dd><a href="mailto:projetofuncode@gmail.com">projetofuncode@gmail.com</a></dd>
+          </dl>
+
+          <dl class="contact-list">
+            <dt>Redes Sociais</dt>
+            <dd><a target="_blank" href="https://www.instagram.com/funcodeprojeto/">Instagram</a>
+              <span>e</span> <a target="_blank"
+                href="https://www.youtube.com/channel/UCL0jWZ6iC_lqsmz26mi44ZQ">YouTube</a>
+            </dd>
+          </dl>
+        </div>
+
+        <div class="col-md-4 col-xl-3 mb-3">
+          <h5>Links</h5>
+          <ul class="nav-list">
+            <li><a href="index.html">Página Inicial</a></li>
+            <li><a href="#">Aulas</a></li>
+            <li><a href="#">Atividades</a></li>
+            <li><a href="#">Games</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- Rights-->
+      <p class="rights">
+        <span>©  </span><span class="copyright-year">2021</span><span> </span><span>Projeto Fun
+          Code</span><span>. </span><span>All Rights Reserved.</span>
+      </p>
+    </div>
+    <!-- fim container -->
+  </footer>
+
+  <!-- jQuery, Popper.js e Bootstrap JS, respectivamente -->
+  <script src="static/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="static/bootstrap/js/"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="static/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <!-- botão voltar para o topo -->
+  <script src="./static/botao-voltar-topo.js"></script>
+</body>
 
 </html>
