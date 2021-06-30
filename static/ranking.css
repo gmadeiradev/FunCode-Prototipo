@@ -29,5 +29,12 @@ main section .btn-rank-continuar {
     background-color: #FEDB45;
     color: gray;
     width: 150px;
-    margin: 0 200px;
+    display: flex;
+    justify-content: center;
+}
+
+main section .btn-rank-continuar:hover {
+    background-color:  #FEDB45;
+    color: gray;
+    box-shadow: 0 0 2em #ddd;
 }
