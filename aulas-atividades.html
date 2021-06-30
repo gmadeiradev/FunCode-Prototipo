@@ -2,12 +2,12 @@
 <html lang="pt_br">
 
 <head>
-    <title>Fun Code - Escolha Sua Conta</title>
+    <title>Fun Code - Aulas e Atividades</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS externo -->
     <!-- CSS cadastro -->
-    <link rel="stylesheet" href="./static/registro.css">
+    <link rel="stylesheet" href="./static/aulas-atividades.css">
     <!-- CSS navbar -->
     <link rel="stylesheet" href="./static/navbar.css">
     <!-- CSS footer -->
@@ -15,15 +15,20 @@
     <!-- Bootstrap CSS -->
     <link href="static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="static/bootstrap/css/bootstrap.min.css">
-    <!-- CSS links -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Fonte Amatic SC -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 </head>
 
 <body style="background-color: #A9E2F3;">
     <!-- cabeçalho -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg fixed-top">
-            <a class="navbar-brand" href="#">Fun Code</a>
+            <a class="navbar-brand fonte-marca" href="#">Fun Code</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -33,18 +38,6 @@
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">Página Inicial</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Aulas e Atividades
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Aulas</a>
-                            <a class="dropdown-item" href="#">Atividades</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Games</a>
-                        </div>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="entrar.html">Login</a>
@@ -61,32 +54,32 @@
     <main>
         <section>
             <!-- container -->
-            <div class="container shadow opcao-conta-card">
-                <div class="card-deck pt-3">
-                    <div class="card">
-                        <img class="card my-2 img-opcao-conta" src="./img/trophy-icon-opcao-conta.png" width="100px" height="140px" alt="Imagem de capa do card">
-                        <div class="card-body  text-center">
-                            <h5 class="card-title">Preemium</h5>
-                            <p class="card-text">
-                                Conta com material em texto, vídeos das aulas e acesso a atividades correspondentes, “games” e ranking das atividades. 
-                            </p>
-                        </div>
+            <div class="shadow bg-light alinhamento-atividades">
+                <div class="row">
+                    <h1 class="text-center mb-3">Aula do Dia: Coloque tudo em Ordem</h1>
+                    <div class="col-sm">
+                        <figure>
+                            <img class="svg-atividades" src="./img/video-atividades.svg" alt="">
+                        </figure>
                     </div>
 
-                    <div class="card">
-                        <img class="card my-2 img-opcao-conta" src="./img/graph-icon.png" width="100px" height="140px" alt="Imagem de capa do card">
-                        <div class="card-body  text-center">
-                            <h5 class="card-title">Free</h5>
-                            <p class="card-text">
-                                Conta com material em texto, vídeos das aulas e atividades correspondentes.
-                            </p>
-                        </div>
+                    <div class="col-sm sobre-atividades">
+                        <h3>Benefícios</h3>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus, ea culpa voluptatum architecto nostrum atque numquam vitae quidem rerum nisi.
+                        </p>
                     </div>
                 </div>
 
-                <div class="row">
-                    <button type="submit" class="col-sm mt-5 container btn botao-esc-conta">Escolher Opção Preemium</button>
-                    <button type="submit" class="col-sm mt-5 container btn botao-esc-conta">Escolher Opção Free</button>
+                <div class="mt-5 row">
+                    <div class="col-sm">
+                        <h3 class="text-center">Exercícios</h3>
+                        <p>
+                            Olá, Funzinho. Tudo bem? Preciso que você me faça um favor ou isso pode ser ainda mais legal... Que tal brincarmos com cartas?
+                            Hoje vamos ver quais números são maiores e menores.
+                            Você vai pegar as cartas 1, 2 e 3 colocá-las em ordem crescente (do menor para o maior número) como foi passado pela tia acima. Vamos lá?!
+                        </p>
+                    </div>
                 </div>
             </div>
             <!-- fim container -->

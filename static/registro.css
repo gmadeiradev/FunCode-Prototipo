@@ -31,7 +31,7 @@ main section .padding-cad-form {
 }
 
 main section form .botao-reg-cad {
-    background-color:  #FEDB45;
+    background-color: #FEDB45;
     color: gray;
     width: 150px;
     display: flex;
@@ -83,7 +83,8 @@ main section .opcao-conta-card {
 }
 
 main section .botao-esc-conta {
-    border: 1.5px solid #FEDB45;
+    background-color: #FEDB45;
+    color: gray;
     margin: 0 200px;
     display: flex;
     justify-content: center;
@@ -92,4 +93,5 @@ main section .botao-esc-conta {
 main section .botao-esc-conta:hover {
     background-color:  #FEDB45;
     color: gray;
+    box-shadow: 0 0 2em #ddd;
 }
