@@ -11,6 +11,12 @@ h1, h3 {
     font-family: 'Amatic SC', cursive;
 }
 
+/* main */
+main {
+    background-image: url(../img/bg-cadastro-estrelas.png);
+    border: 1px solid #A9E2F3;
+}
+
 main section .container-ranking {
     margin: 150px;
 }
