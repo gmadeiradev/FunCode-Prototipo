@@ -12,6 +12,11 @@ h1, h3 {
 }
 
 /* body */
+main section figure .ilustracao-conheca-fun {
+    position: absolute;
+    left: 1650px;
+}
+
 main section .alinhar-metodologia {
     display: flex;
     justify-content: center;

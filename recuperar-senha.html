@@ -22,8 +22,8 @@
 <body style="background-color: #A9E2F3;">
     <!-- cabeçalho -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg fixed-top">
-            <a class="navbar-brand" href="#">Fun Code</a>
+        <nav class="navbar navbar-expand-lg navbar-light bg fixed-top" id="home">
+            <a class="navbar-brand fonte-marca" href="index.html">Fun Code</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -32,10 +32,24 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Página Inicial</a>
+                        <a class="nav-link" href="index.html">Página inicial</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Aulas e Atividades
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="aulas-atividades.html">Aulas e Atividades</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="ranking.html">Ranking Fun</a>
+                        </div>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="entrar.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cadastro.html">Cadastrar-se</a>
                     </li>
                 </ul>
             </div>
@@ -49,7 +63,7 @@
             <div class="alinhamento-form-rec-senha">
                 <div class="padding-cad-form mt-5 shadow mb-5 bg-white">
                     <form>
-                        <div class="form-group">    
+                        <div class="form-group">
                             <label for="exampleInputEmail1">Endereço de e-mail</label>
                             <input type="email" class="form-control" id="exampleInputEmail1"
                                 aria-describedby="emailHelp" placeholder="Seu e-mail">
@@ -67,13 +81,13 @@
     <footer>
         <!-- container -->
         <div class="linha-amarela"></div>
-        <div class="container my-0 py-3" id="footer">
+        <div class="container my-0 py-5" id="footer">
             <div class="row">
                 <div class="col-md-4 col-xl-5">
                     <div class="pr-xl-4">
                         <a class="brand" href="index.html">
-                            <img class="brand-logo-light" src="images/agency/logo-inverse-140x37.png" alt="" width="140"
-                                height="37" srcset="images/agency/logo-retina-inverse-280x74.png 2x">
+                            <img class="brand-logo-light ml-5" src="./img/logo-funcode.png" width="140px" alt=""
+                                height="140px" srcset="images/agency/logo-retina-inverse-280x74.png 2x">
                         </a>
                         <p>Complementar e Integrar a Educação Infantil.</p>
                     </div>
@@ -98,10 +112,9 @@
                 <div class="col-md-4 col-xl-3 mb-3">
                     <h5>Links</h5>
                     <ul class="nav-list">
-                        <li><a href="#">Página Inicial</a></li>
-                        <li><a href="#">Aulas</a></li>
-                        <li><a href="#">Atividades</a></li>
-                        <li><a href="#">Games</a></li>
+                        <li><a href="index.html">Página Inicial</a></li>
+                        <li><a href="aulas-atividades.html">Aulas e Atividades</a></li>
+                        <li><a href="ranking.html">Ranking Fun</a></li>
                     </ul>
                 </div>
             </div>
